@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/mFav"
-        android:icon="@drawable/ic_baseline_favorite"
-        android:title="Favoritos"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mBuscar"
-        android:icon="@drawable/ic_baseline_search"
-        android:title="Buscar"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mConfig"
-        android:icon="@drawable/ic_baseline_settings"
-        android:title="Configurar"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mHistorico"
-        android:icon="@drawable/ic_baseline_history"
-        android:title="Historico"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mSobre"
-        android:icon="@drawable/ic_baseline_info"
-        android:title="Sobre"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mCompartilhar"
-        android:icon="@drawable/ic_baseline_share"
-        android:title="Compartilhar"
-        app:showAsAction="ifRoom" />
 
     <!--!https://m3.material.io/components/menus/guidelines-->
+    <item
+        android:id="@+id/mSearch"
+        android:icon="@drawable/ic_baseline_search"
+        android:title="Pesquisar"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mBack"
+        android:icon="@drawable/ic_baseline_arrow_back"
+        android:title="Voltar" />
+    <item
+        android:id="@+id/mEnter"
+        android:icon="@drawable/ic_baseline_login"
+        android:title="Entrar" />
+    <item
+        android:id="@+id/mSignIn"
+        android:icon="@drawable/ic_baseline_insert_emoticon"
+        android:title="Cadastrar" />
+    <item
+        android:id="@+id/mLogout"
+        android:icon="@drawable/ic_baseline_logout"
+        android:title="Sair" />
+
+
 </menu>

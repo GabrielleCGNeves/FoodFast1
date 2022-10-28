@@ -32,23 +32,20 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.mFav:
-                Toast.makeText(getApplicationContext(), "Fav", Toast.LENGTH_LONG).show();
+            case R.id.mEnter:
+                Toast.makeText(getApplicationContext(), "Entrar", Toast.LENGTH_LONG).show();
                 break;
-            case R.id.mBuscar:
-                Toast.makeText(getApplicationContext(), "Buscar", Toast.LENGTH_SHORT).show();
+            case R.id.mLogout:
+                Toast.makeText(getApplicationContext(), "Sair", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mConfig:
-                Toast.makeText(getApplicationContext(), "Config", Toast.LENGTH_LONG).show();
+            case R.id.mBack:
+                Toast.makeText(getApplicationContext(), "Voltar", Toast.LENGTH_LONG).show();
                 break;
-            case R.id.mHistorico:
-                Toast.makeText(getApplicationContext(), "Historico", Toast.LENGTH_LONG).show();
+            case R.id.mSignIn:
+                Toast.makeText(getApplicationContext(), "Cadastrar", Toast.LENGTH_LONG).show();
                 break;
-            case R.id.mSobre:
-                Toast.makeText(getApplicationContext(), "Info", Toast.LENGTH_LONG).show();
-                break;
-            case R.id.mCompartilhar:
-                Toast.makeText(getApplicationContext(), "Share", Toast.LENGTH_LONG).show();
+            case R.id.mSearch:
+                Toast.makeText(getApplicationContext(), "Buscar", Toast.LENGTH_LONG).show();
                 break;
         }
 
