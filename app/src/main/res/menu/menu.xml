@@ -31,4 +31,6 @@
         android:icon="@drawable/ic_baseline_share"
         android:title="Compartilhar"
         app:showAsAction="ifRoom" />
+
+    <!--!https://m3.material.io/components/menus/guidelines-->
 </menu>
