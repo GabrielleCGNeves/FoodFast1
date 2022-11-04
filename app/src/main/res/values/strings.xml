@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FoodFast</string>
+    <string name="buscar">Buscar</string>
+    <string name="favorito">Favorito</string>
+    <string name="busc">Busc</string>
+    <string name="mais">Mais</string>
 </resources>

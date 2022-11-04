@@ -1,8 +1,10 @@
 package br.com.etecia.foodfast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
@@ -30,6 +32,49 @@ public class MenuAppBarTop_Activity extends AppCompatActivity {
             }
         });
 
+        idToolBar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
 
+                switch(item.getItemId()){
+
+                    case R.id.mFavorite:
+                        Toast.makeText(getApplicationContext(), "curtiu", Toast.LENGTH_SHORT).show();
+                        break;
+                }
+
+                return false;
+            }
+        });
+
+        idToolBar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+
+                switch (item.getItemId()){
+
+                    case R.id.mBusca:
+                        Toast.makeText(getApplicationContext(), "buscar", Toast.LENGTH_SHORT).show();
+                        break;
+                }
+                return false;
+            }
+        });
+
+        idToolBar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+
+                switch(item.getItemId()){
+
+                    case R.id.mMore:
+                        Toast.makeText(getApplicationContext(), "mais opções", Toast.LENGTH_SHORT).show();
+                        break;
+
+                }
+
+                return false;
+            }
+        });
     }
 }
