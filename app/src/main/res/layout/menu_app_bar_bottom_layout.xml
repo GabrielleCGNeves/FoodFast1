@@ -15,4 +15,11 @@
         app:menu="@menu/menu_top"
         app:navigationIcon="@drawable/ic_baseline_menu" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/idFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_add"
+        app:layout_anchor="@id/idBottomMais" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
